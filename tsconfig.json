@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "ES6", 
+    "module": "ES2020", 
+    "lib": [ 
+      "dom",
+      "es6",
+      "dom.iterable",
+      "scripthost"
+    ],
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "noEmitOnError": true,                          
+    "strict": true,
+
+    /* Additional Checks */
+    "noUnusedLocals": true, 
+    "noUnusedParameters": true, 
+    "noImplicitReturns": true, 
+
+    /* Module Resolution Options */
+    "esModuleInterop": true, 
+
+    /* Advanced Options */
+    "skipLibCheck": true, 
+    "forceConsistentCasingInFileNames": true 
+  },
+  "exclude": [
+    "node_modules"
+  ],
+}
