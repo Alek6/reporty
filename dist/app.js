@@ -1,3 +1,3 @@
 "use strict";
 console.log('App running...');
-//# sourceMappingURL=app.js.map
+console.warn('The TS and webpack are working together!');

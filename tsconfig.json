@@ -9,7 +9,7 @@
       "dom.iterable",
       "scripthost"
     ],
-    "sourceMap": true,
+    "sourceMap": false,
     "outDir": "./dist",
     "rootDir": "./src",
     "noEmitOnError": true,                          
