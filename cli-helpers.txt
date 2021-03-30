@@ -1,0 +1,35 @@
+1]  [NPM]
+    NPM START AND RUN THE LITE-SERVER
+
+    npm start
+
+
+2]  [SASS]
+    WATCH FOR SASS CHANGES:
+
+    1) Move into the 'scss' folder.
+    2) Run: sass --watch scss/styles.scss:css/styles.css
+
+
+3]  [TYPESCRIPT]
+    LIVE UPDATE ANY CHANGES ON TS FILES
+
+    1) Specific:
+    tsc app.ts --watch    OR   tsc app.ts -w
+
+    2) Global:
+    tsc --init  --> Output: tsconfig.json
+    To compile and watch all .ts files in the project: tsc --watch  OR tsc -w
+
+4]  [WEBPACK]
+    ADD ANY NEW ".js" FILES TO THE "entry" ARRAY IN "webpack.config.js":
+
+    entry: [
+        './src/app/index.js',
+        '....'                  // new file-name
+    ]
+
+
+ 3] RUN THE CONFIGURATION FILE UPDATE COMMAND:
+
+    npx webpack --config webpack.config.js
