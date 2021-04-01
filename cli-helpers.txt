@@ -33,3 +33,21 @@
  3] RUN THE CONFIGURATION FILE UPDATE COMMAND:
 
     npx webpack --config webpack.config.js
+
+----------------------------------------------------------------
+
+ONCE THE PROJECT IS OPEN...
+
+Do the following STEPS:
+
+1. Open 4 Terminals.
+2. - 1st for Git (add, commits, push)
+   - 2nd for update the webpack.config.js 
+   - 3rd to start the watching mode for all the TS files in /src/ repository
+   - 4th to run the live-server locally (http://localhost:3002/)
+
+3. Run these commands on 3 of 4 terminals:
+
+   - npx webpack --config webpack.config.js
+   - tsc -w
+   - npm start
